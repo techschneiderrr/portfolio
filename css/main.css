@@ -1278,7 +1278,7 @@ nav ul{
 }
 nav a,nav a:visited{
     /* color: white; */
-	color: #FF0077;
+	color: white;
     text-decoration: none;
 }
 .burger div{
@@ -1314,7 +1314,7 @@ nav a,nav a:visited{
     .burger{
         display: block;
     }
-    nav ul{
+    nav ul  {
         position: absolute;
         top: 0vh;
         transform: translateX(-100%);
@@ -1330,13 +1330,13 @@ nav a,nav a:visited{
         z-index: -10;
 		color: white;
     }
-	nav ul li a:hover{
+	nav ul li:hover a:hover{
 		color:#FF0077;
 	}
-	/*
+	
 	nav a,nav a:visited{
 		color: white;
-	} */
+	} 
     nav ul li{
         opacity: 0;
 		transition: 0.3s;
