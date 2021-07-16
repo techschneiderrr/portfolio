@@ -20,6 +20,12 @@ html {
 	font-size: 10px;
 }
 
+@media (max-width: 785px) {
+	.hidden-phone {
+	  display: none;
+	}
+  }
+
 @media only screen and (max-width:1024px) {
 	html {
 		font-size: 9.411764705882353px;
@@ -2544,7 +2550,7 @@ footer .copyright span:last-child::after {
 #go-top {
 	position: fixed;
 	bottom: 0;
-	right: 0;
+	left: 0;
 	z-index: 600;
 	display: none;
 }
